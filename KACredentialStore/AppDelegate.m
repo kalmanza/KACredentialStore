@@ -1,6 +1,5 @@
 //
 //  AppDelegate.m
-//  KACredentialStore
 //
 //  Created by Kevin Almanza on 12/7/14.
 //  Copyright (c) 2014 Kevin Almanza. All rights reserved.

@@ -1,6 +1,5 @@
 //
 //  ViewController.h
-//  KABiometricLogin
 //
 //  Created by Kevin Almanza on 12/6/14.
 //
