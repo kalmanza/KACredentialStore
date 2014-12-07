@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B38F5CF01A35024000B2F335 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B38F5CEF1A35024000B2F335 /* main.m */; };
+		B38F5CF31A35024000B2F335 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B38F5CF21A35024000B2F335 /* AppDelegate.m */; };
+		B38F5CFB1A35024000B2F335 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38F5CFA1A35024000B2F335 /* Images.xcassets */; };
+		B38F5CFE1A35024000B2F335 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B38F5CFC1A35024000B2F335 /* LaunchScreen.xib */; };
+		B38F5D0A1A35024000B2F335 /* KACredentialStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B38F5D091A35024000B2F335 /* KACredentialStoreTests.m */; };
+		B38F5D181A35027F00B2F335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38F5D131A35027F00B2F335 /* Main.storyboard */; };
+		B38F5D191A35027F00B2F335 /* KACredentialStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B38F5D151A35027F00B2F335 /* KACredentialStore.m */; };
+		B38F5D1A1A35027F00B2F335 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B38F5D171A35027F00B2F335 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B38F5D041A35024000B2F335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B38F5CE21A35024000B2F335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B38F5CE91A35024000B2F335;
+			remoteInfo = KACredentialStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B38F5CEA1A35024000B2F335 /* KACredentialStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KACredentialStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38F5CEE1A35024000B2F335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38F5CEF1A35024000B2F335 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B38F5CF11A35024000B2F335 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B38F5CF21A35024000B2F335 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B38F5CFA1A35024000B2F335 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B38F5CFD1A35024000B2F335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B38F5D031A35024000B2F335 /* KACredentialStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KACredentialStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38F5D081A35024000B2F335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38F5D091A35024000B2F335 /* KACredentialStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KACredentialStoreTests.m; sourceTree = "<group>"; };
+		B38F5D131A35027F00B2F335 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B38F5D141A35027F00B2F335 /* KACredentialStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KACredentialStore.h; sourceTree = "<group>"; };
+		B38F5D151A35027F00B2F335 /* KACredentialStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KACredentialStore.m; sourceTree = "<group>"; };
+		B38F5D161A35027F00B2F335 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B38F5D171A35027F00B2F335 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B38F5CE71A35024000B2F335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38F5D001A35024000B2F335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B38F5CE11A35024000B2F335 = {
+			isa = PBXGroup;
+			children = (
+				B38F5CEC1A35024000B2F335 /* KACredentialStore */,
+				B38F5D061A35024000B2F335 /* KACredentialStoreTests */,
+				B38F5CEB1A35024000B2F335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B38F5CEB1A35024000B2F335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B38F5CEA1A35024000B2F335 /* KACredentialStore.app */,
+				B38F5D031A35024000B2F335 /* KACredentialStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B38F5CEC1A35024000B2F335 /* KACredentialStore */ = {
+			isa = PBXGroup;
+			children = (
+				B38F5D131A35027F00B2F335 /* Main.storyboard */,
+				B38F5D141A35027F00B2F335 /* KACredentialStore.h */,
+				B38F5D151A35027F00B2F335 /* KACredentialStore.m */,
+				B38F5D161A35027F00B2F335 /* ViewController.h */,
+				B38F5D171A35027F00B2F335 /* ViewController.m */,
+				B38F5CF11A35024000B2F335 /* AppDelegate.h */,
+				B38F5CF21A35024000B2F335 /* AppDelegate.m */,
+				B38F5CFA1A35024000B2F335 /* Images.xcassets */,
+				B38F5CFC1A35024000B2F335 /* LaunchScreen.xib */,
+				B38F5CED1A35024000B2F335 /* Supporting Files */,
+			);
+			path = KACredentialStore;
+			sourceTree = "<group>";
+		};
+		B38F5CED1A35024000B2F335 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B38F5CEE1A35024000B2F335 /* Info.plist */,
+				B38F5CEF1A35024000B2F335 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B38F5D061A35024000B2F335 /* KACredentialStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				B38F5D091A35024000B2F335 /* KACredentialStoreTests.m */,
+				B38F5D071A35024000B2F335 /* Supporting Files */,
+			);
+			path = KACredentialStoreTests;
+			sourceTree = "<group>";
+		};
+		B38F5D071A35024000B2F335 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B38F5D081A35024000B2F335 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B38F5CE91A35024000B2F335 /* KACredentialStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38F5D0D1A35024000B2F335 /* Build configuration list for PBXNativeTarget "KACredentialStore" */;
+			buildPhases = (
+				B38F5CE61A35024000B2F335 /* Sources */,
+				B38F5CE71A35024000B2F335 /* Frameworks */,
+				B38F5CE81A35024000B2F335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KACredentialStore;
+			productName = KACredentialStore;
+			productReference = B38F5CEA1A35024000B2F335 /* KACredentialStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B38F5D021A35024000B2F335 /* KACredentialStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38F5D101A35024000B2F335 /* Build configuration list for PBXNativeTarget "KACredentialStoreTests" */;
+			buildPhases = (
+				B38F5CFF1A35024000B2F335 /* Sources */,
+				B38F5D001A35024000B2F335 /* Frameworks */,
+				B38F5D011A35024000B2F335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B38F5D051A35024000B2F335 /* PBXTargetDependency */,
+			);
+			name = KACredentialStoreTests;
+			productName = KACredentialStoreTests;
+			productReference = B38F5D031A35024000B2F335 /* KACredentialStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B38F5CE21A35024000B2F335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Kevin Almanza";
+				TargetAttributes = {
+					B38F5CE91A35024000B2F335 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B38F5D021A35024000B2F335 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B38F5CE91A35024000B2F335;
+					};
+				};
+			};
+			buildConfigurationList = B38F5CE51A35024000B2F335 /* Build configuration list for PBXProject "KACredentialStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B38F5CE11A35024000B2F335;
+			productRefGroup = B38F5CEB1A35024000B2F335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B38F5CE91A35024000B2F335 /* KACredentialStore */,
+				B38F5D021A35024000B2F335 /* KACredentialStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B38F5CE81A35024000B2F335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38F5D181A35027F00B2F335 /* Main.storyboard in Resources */,
+				B38F5CFE1A35024000B2F335 /* LaunchScreen.xib in Resources */,
+				B38F5CFB1A35024000B2F335 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38F5D011A35024000B2F335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B38F5CE61A35024000B2F335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38F5CF31A35024000B2F335 /* AppDelegate.m in Sources */,
+				B38F5CF01A35024000B2F335 /* main.m in Sources */,
+				B38F5D1A1A35027F00B2F335 /* ViewController.m in Sources */,
+				B38F5D191A35027F00B2F335 /* KACredentialStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38F5CFF1A35024000B2F335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38F5D0A1A35024000B2F335 /* KACredentialStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B38F5D051A35024000B2F335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B38F5CE91A35024000B2F335 /* KACredentialStore */;
+			targetProxy = B38F5D041A35024000B2F335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B38F5CFC1A35024000B2F335 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B38F5CFD1A35024000B2F335 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B38F5D0B1A35024000B2F335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B38F5D0C1A35024000B2F335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B38F5D0E1A35024000B2F335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KACredentialStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B38F5D0F1A35024000B2F335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KACredentialStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B38F5D111A35024000B2F335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KACredentialStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KACredentialStore.app/KACredentialStore";
+			};
+			name = Debug;
+		};
+		B38F5D121A35024000B2F335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KACredentialStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KACredentialStore.app/KACredentialStore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B38F5CE51A35024000B2F335 /* Build configuration list for PBXProject "KACredentialStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38F5D0B1A35024000B2F335 /* Debug */,
+				B38F5D0C1A35024000B2F335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38F5D0D1A35024000B2F335 /* Build configuration list for PBXNativeTarget "KACredentialStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38F5D0E1A35024000B2F335 /* Debug */,
+				B38F5D0F1A35024000B2F335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B38F5D101A35024000B2F335 /* Build configuration list for PBXNativeTarget "KACredentialStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38F5D111A35024000B2F335 /* Debug */,
+				B38F5D121A35024000B2F335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B38F5CE21A35024000B2F335 /* Project object */;
+}
